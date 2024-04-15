@@ -26,6 +26,9 @@ import locale500 from '@/views/exception/500/locale/zh-CN';
 import localeUserInfo from '@/views/user/info/locale/zh-CN';
 import localeUserSetting from '@/views/user/setting/locale/zh-CN';
 
+import localeSSD from '@/views/storage/ssd/locale/zh-CN';
+import localeDisk from '@/views/storage/disk/locale/zh-CN';
+
 import localeSettings from './zh-CN/settings';
 
 export default {
@@ -33,14 +36,18 @@ export default {
   'menu.server.dashboard': '仪表盘-服务端',
   'menu.server.workplace': '工作台-服务端',
   'menu.server.monitor': '实时监控-服务端',
-  'menu.list': '列表页',
+  'menu.list': '存储产品管理',
   'menu.result': '结果页',
   'menu.exception': '异常页',
   'menu.form': '表单页',
-  'menu.profile': '详情页',
+  'menu.profile': '桌面端设备管理',
   'menu.visualization': '数据可视化',
+  'menu.mobileStore': '移动端设备管理',
   'menu.user': '个人中心',
   'menu.arcoWebsite': 'Arco Design',
+  'menu.storageRoute': '存储产品管理',
+  'menu.storageRouteSSD': 'SSD管理',
+  'menu.storageRouteDisk': '机械硬盘管理',
   'menu.faq': '常见问题',
   'navbar.docs': '文档中心',
   'navbar.action.locale': '切换为中文',
@@ -64,4 +71,6 @@ export default {
   ...locale500,
   ...localeUserInfo,
   ...localeUserSetting,
+  ...localeSSD,
+  ...localeDisk,
 };

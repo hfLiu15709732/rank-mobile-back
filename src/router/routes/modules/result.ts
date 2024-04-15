@@ -20,6 +20,7 @@ const RESULT: AppRouteRecordRaw = {
         locale: 'menu.result.success',
         requiresAuth: true,
         roles: ['admin'],
+        hideInMenu: true,
       },
     },
     {
@@ -30,6 +31,7 @@ const RESULT: AppRouteRecordRaw = {
         locale: 'menu.result.error',
         requiresAuth: true,
         roles: ['admin'],
+        hideInMenu: true,
       },
     },
   ],

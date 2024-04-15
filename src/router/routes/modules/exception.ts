@@ -10,6 +10,7 @@ const EXCEPTION: AppRouteRecordRaw = {
     requiresAuth: true,
     icon: 'icon-exclamation-circle',
     order: 6,
+    hideInMenu: true,
   },
   children: [
     {
@@ -20,6 +21,7 @@ const EXCEPTION: AppRouteRecordRaw = {
         locale: 'menu.exception.403',
         requiresAuth: true,
         roles: ['admin'],
+        hideInMenu: true,
       },
     },
     {
@@ -30,6 +32,7 @@ const EXCEPTION: AppRouteRecordRaw = {
         locale: 'menu.exception.404',
         requiresAuth: true,
         roles: ['*'],
+        hideInMenu: true,
       },
     },
     {
@@ -40,6 +43,7 @@ const EXCEPTION: AppRouteRecordRaw = {
         locale: 'menu.exception.500',
         requiresAuth: true,
         roles: ['*'],
+        hideInMenu: true,
       },
     },
   ],

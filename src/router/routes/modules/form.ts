@@ -20,6 +20,7 @@ const FORM: AppRouteRecordRaw = {
         locale: 'menu.form.step',
         requiresAuth: true,
         roles: ['admin'],
+        hideInMenu: true,
       },
     },
     {
@@ -30,6 +31,7 @@ const FORM: AppRouteRecordRaw = {
         locale: 'menu.form.group',
         requiresAuth: true,
         roles: ['admin'],
+        hideInMenu: true,
       },
     },
   ],
